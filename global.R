@@ -26,7 +26,7 @@ facilities <- readRDS('./facilities2021-09-10.rds') %>%
   filter(Facility.Name %in% c ('Mbita Sub-County Hospital','Rangwe Sub-District Hospital','Ogongo Sub-County Hospital','Suba Sub-Couty Hospital'
          ,'Nyandiwa Level IV Hospital','Ndhiwa Sub-District Hospital','Marindi Sub County Referral Hospital','Makongeni Health Centre'
            ,'Homa Bay County Teaching and Referral Hospital','Kendu Sub-District Hospital','Kandiege Sub-District Hospital'
-           ,'Kabondo Sub-County  Hospital','Rachuonyo District Hospital','Ogongo Sub-County Hospital','Kabondo Sub-County  Hospital','Kendu Sub-District Hospital')) %>%
+           ,'Kabondo Sub-County  Hospital','Rachuonyo District Hospital','Ogongo Sub-County Hospital','Kabondo Sub-County  Hospital','Kendu Sub-District Hospital','Matibabu Ukwala Clinic')) %>%
   select(-Latitude, -Longitude)
 
 
